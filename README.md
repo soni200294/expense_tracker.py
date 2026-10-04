@@ -1,14 +1,14 @@
-# Expense Tracker
-A command-line app to record daily expenses and see spending by category.
+# Smart Expense Tracker
+A command-line app to track daily expenses.
 
 ## Features
-- Add expenses with category, amount and note
-- Data saved in a CSV file
-- Summary of total spending per category
-- Handles invalid input
-
-## Tech
-Python (csv, os, datetime modules)
+- Add, view and delete expenses
+- Category-wise summary
+- Data saved in a JSON file
 
 ## How to run
-python expense_tracker.py
+1. Install Python 3
+2. Run: python main.py
+
+## Built with
+Python (json, os, datetime)
